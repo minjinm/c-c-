@@ -1,0 +1,35 @@
+/* 
+ CH-230-A
+ a10_p1.cpp
+ Minjinsor Munkh-Erdene
+ mmunkherde@jacobs-university.de
+*/
+
+a) Comment out the using namespace std; 
+and then take your time, read and interpret
+the error messages.
+
+/*Errors below happen because namespace std was 
+commented out, hence the compiler 
+doesn't recognize it; 
+std:: can be used to avoid this error*/
+
+The errors:
+1. identifier "string" is undefined
+2. identifier "cout" is undefined
+3. identifier "endl" is undefined
+4. identifier "getline" is undefined
+5. identifier "name" is undefined
+
+b) Also remove the Critter:: prefix in one of the methods 
+in Critter.cpp, read and interpret the error message.
+
+/*Error below happens because it isn't in the class anymore, 
+making it a random void setname,
+hence it isn't 'identifier name is undefined'
+(everything private (name is private), make it public)*/
+
+removed from setName. error:
+identifier "name" is undefined
+
+
